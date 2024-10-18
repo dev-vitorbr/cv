@@ -5,7 +5,7 @@
 
 .formacao-container {
   max-width: 1200px;
-  padding: 120px 20px;
+  padding: 120px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -13,20 +13,8 @@
   position: relative;
 }
 
-.formacao-container::after {
-    content: '';
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url(../img/detalhe.svg) no-repeat center;
-    position: absolute;
-    bottom: -50px;
-    left: 20px;
-}
-
-
 .formacao .subtitulo {
-  color: #000000;
+  color: #0c0c0c;
   max-width: 5ch;
 }
 
@@ -51,7 +39,7 @@
 
 .faculdade {
   flex: 1;
-  background: #000000;
+  background: #0c0c0c;
   padding: 20px;
   border-radius: 4px;
   display: flex;
@@ -121,7 +109,7 @@
 
 .formacao-extra li {
   font-size: 1.125rem;
-  line-height: 1.1;
+  line-height: 1.25;
   margin-bottom: 20px;
 }
 

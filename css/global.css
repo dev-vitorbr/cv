@@ -38,3 +38,9 @@ img {
     max-width: initial !important;
   }
 }
+
+@media (max-width: 400px) {
+  .subtitulo {
+    font-size: 2.5rem;
+  }
+}

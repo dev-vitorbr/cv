@@ -1,14 +1,13 @@
 .competencias {
-  max-width: 1200px;
   padding: 40px 20px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
+  background: #efefef;
 }
 
 .competencias .subtitulo {
-  color: #e0e0e0;
+  color: #d7d7d7;
   max-width: 5ch;
 }
 
@@ -24,7 +23,7 @@
 
 .linguagem {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
   background: #f5f5f5;
@@ -76,6 +75,10 @@
   padding: 5px 10px;
 }
 
+.linguagem-habilidades li:hover {
+  background: #e0e0e0;
+}
+
 @media (max-width: 800px) {
   .competencias {
     grid-template-columns: 1fr;
@@ -92,7 +95,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .linguagem {
     grid-template-columns: 1fr;
   }

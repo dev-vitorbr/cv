@@ -38,11 +38,17 @@
 }
 
 @media (max-width: 800px) {
-    .footer-container{
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    .footer-contato li{
-        font-size: 1.5rem;
-    }
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-contato li {
+    font-size: 1.2rem;
+  }
 }
